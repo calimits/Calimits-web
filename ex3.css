@@ -1,0 +1,33 @@
+.drop{
+    position: absolute;
+}
+.dropb{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.content{
+    display:none;
+}
+.content a{
+    display: block;
+    text-decoration: none;
+}
+
+.content a:hover{
+    background-color: gray;
+}
+
+.drop:hover .dropb {
+    background-color: blue;
+    box-shadow: 3px 3px rgba(0, 0,0 ,0.2); 
+}
+
+.drop:hover .content{
+    display: block;
+}
+
+

@@ -1,0 +1,41 @@
+html{
+    background-color: rgb(240, 241, 241);
+}
+
+body{
+    margin: 0;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+img{
+    height: 140px;
+    
+}
+
+#grid2{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px 20px;
+}
+
+p{
+    margin:0px;
+}
+
+.t{
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+}
+
+

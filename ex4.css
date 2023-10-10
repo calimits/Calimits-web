@@ -1,0 +1,29 @@
+#barra{
+    background-color: rgb(43, 43, 43);
+    margin-left: 0px;
+    top:0px;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    left: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+a:hover{
+    background-color: rgb(182, 50, 50);
+}
+
+p{
+    padding-top: 22px;
+    position: absolute;
+}
+
+#je{
+    position:relative;
+    
+}

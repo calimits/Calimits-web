@@ -1,0 +1,46 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: #262627;
+    color: whitesmoke;
+    font-size: 100%;
+    text-align: center;
+}
+
+footer{
+    background-color: #262627;
+    color: whitesmoke;
+}
+
+footer section{
+    float: right;
+    margin-right: 4%;
+}
+
+footer p{
+    margin-left: 4%;
+}
+
+#pic1{
+    width:100%
+}
+
+#ayg{
+    text-align: center;
+}
+.albums{
+    margin: 0 auto;
+    width: 48%;
+    background-color: white;
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.listas{
+    background-color: rgb(44, 43, 43);
+    width: 80%;
+    color:rgb(236, 234, 234);
+}

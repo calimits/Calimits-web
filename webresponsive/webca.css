@@ -1,0 +1,210 @@
+html{
+    background-color: rgb(245, 240, 240);
+}
+#cabecera{
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+
+#enlaces{
+    float:right;
+}
+#enlaces a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+a:hover{
+    background-color: rgb(78, 78, 78);
+}
+
+#blog{
+    background-color: rgb(35, 100, 221);
+    color: white;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#blog:hover{
+    background-color: rgb(35, 46, 194);
+}
+
+#blog:active{
+    background-color: rgb(35, 194, 120);
+}
+
+#targets{
+    border: solid 1px;
+    border-top: none;
+    border-color: gainsboro;
+    margin: 0px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#hed1{
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0;
+    padding: 17px;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+
+.tarjeta{
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    margin: 2.2%;
+    border-radius: 4px ;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.1s;
+}
+
+.tarjeta:hover{
+    box-shadow: 0px 1px 8px rgba(0,0,0,0.2);
+    transform: scale(1.04,1.04);
+}
+
+img{
+    width: 94%;
+    padding: 2%;
+}
+
+p{
+    margin: 2px; 
+    text-align: center;
+}
+
+#box2{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+#art1{
+    float: left;
+    width: 70%;
+}
+
+#hed3{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 2px rgba(0,0,0,0.1);
+}
+
+#art1 p{
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(251, 252, 251);
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+    max-height: 110px;
+    display: hidden;
+    overflow-y: scroll;
+}
+
+#formulario{
+    display: inline-block;
+    width: 20%;
+    background-color: rgb(197, 197, 197);
+    margin-top: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+form{
+
+    padding: 6px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px auto;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+label{
+    margin: 15px 15px 15px 15px;
+}
+
+input{
+    width: 90%;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+footer{
+    background-color: rgb(36, 36, 36);
+    height: 25px;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    left: 0;
+
+    padding: 15px;
+}
+footer p{
+    color: white;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+#links2{
+    float: right;
+}
+
+#links2 a{
+    text-decoration: none;
+    margin: 0px 5px 5px 0px;
+}
+
+
+@media (max-width: 677px){
+    .tarjeta{
+        width: 28%;
+    }
+    #art1{
+        float: none;
+        width: 100%;
+    }
+    #formulario{
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 400px){
+    .tarjeta{
+        width: 44%;
+    }
+}
+
+@media (max-width: 383px){
+    footer p{
+        font-size: 9px;
+    }
+}
